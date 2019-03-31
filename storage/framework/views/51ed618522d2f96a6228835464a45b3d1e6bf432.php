@@ -1,0 +1,61 @@
+<?php $__env->startSection('content'); ?> 
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+  background-image: url("storage\_images\Driver1.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: gold;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: gold;
+}
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Welcome to Driving License Generation Software!</h1>
+    <p>This is the software to apply for a driving license.</p>
+    <p><a class="btn btn-primary btn-lg" href="/login" role=="button">Login</a>  <a class="btn btn-success btn-lg" href="/register" role="button">Register and Apply!</a></p>
+  </div>
+</div>
+
+<p>Page Content..</p>
+
+</body>
+</html>
+<?php $__env->stopSection(); ?> 
